@@ -1,2 +1,2 @@
 # radioimpuslo
-Radio de impulso musica
+Radio de impulso musical
