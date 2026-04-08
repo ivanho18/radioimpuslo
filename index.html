@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Pulso | Neon Synthwave Experience</title>
+    <!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-3BGB5987DG"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-3BGB5987DG');
+	</script>
+    <!-- SEO: Meta Description -->
+    <meta name="description" content="Escucha synthwave y retrowave 24/7 desde Sucre, Bolivia. Transmisión en vivo de Radio Pulso, tu latido digital.">
+    
+    <!-- SEO: Canonical URL -->
+    <link rel="canonical" href="https://radiopulso.com/">
+    
+    <!-- SEO: Geolocation Metadata -->
+    <meta name="geo.placename" content="Sucre">
+    <meta name="geo.region" content="BO">
+    <meta name="ICBM" content="-19.0432, -65.2596">
+    
+    <!-- SEO: Open Graph Tags (Social Media) -->
+    <meta property="og:title" content="Radio Pulso | Neon Synthwave Experience">
+    <meta property="og:description" content="Tu latido digital. Escucha synthwave y retrowave 24/7 desde Sucre, Bolivia.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://radiopulso.com/">
+    <meta property="og:image" content="https://radiopulso.com/og-image-1200x630.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="es_BO">
+    <meta property="og:site_name" content="Radio Pulso">
+    
+    <meta name="theme-color" content="#050714">
+    
+    <!-- SEO: Twitter Card Tags (misma imagen que OG hasta que subas una específica) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Radio Pulso - Synthwave 24/7">
+    <meta name="twitter:description" content="Tu latido digital desde Sucre, Bolivia. Escucha synthwave y retrowave en vivo.">
+    <meta name="twitter:image" content="https://radiopulso.com/og-image-1200x630.jpg">
+    
+    <!-- Icono: SVG en la carpeta del proyecto (funciona con file:// y al publicar). -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <!-- Opcional: añade apple-touch-icon.png (180×180) junto a index.html para iOS -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <!-- Fonts & Stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- SEO: Schema (WebSite + RadioStation). Añade sameAs cuando tengas URLs reales de redes. -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://radiopulso.com/#website",
+          "url": "https://radiopulso.com/",
+          "name": "Radio Pulso",
+          "description": "Radio online de synthwave y retrowave. Transmisión en vivo 24/7 desde Sucre, Bolivia.",
+          "inLanguage": "es-BO",
+          "publisher": { "@id": "https://radiopulso.com/#radio" }
+        },
+        {
+          "@type": "RadioStation",
+          "@id": "https://radiopulso.com/#radio",
+          "name": "Radio Pulso",
+          "alternateName": "Tu latido digital",
+          "url": "https://radiopulso.com/",
+          "logo": "https://radiopulso.com/logo.png",
+          "image": "https://radiopulso.com/logo.png",
+          "description": "Radio online de música synthwave y retrowave. Transmisión en vivo 24/7 desde Sucre, Bolivia.",
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Sucre",
+              "containedInPlace": { "@type": "Country", "name": "Bolivia" }
+            },
+            { "@type": "Country", "name": "Bolivia" }
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "info@radiopulso.com",
+            "contactType": "customer support",
+            "availableLanguage": ["es"],
+            "areaServed": "BO"
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-content">
+			<div class="logo">
+				<a href="#home" class="logo-link">
+					<i class="fa-solid fa-heart-pulse pulsating-heart"></i>
+					<span>RADIO PULSO</span>
+				</a>
+			</div>
+            <button class="hamburger" id="hamburger" type="button" aria-label="Abrir menú de navegación" aria-controls="navLinks" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Inicio</a>
+                <a href="#schedule">Horario</a>
+                <a href="#schedule">Programas</a>
+                <a href="#advertise">Publicidad</a>
+                <a href="#contact">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="hero-live-badge"><i class="fas fa-circle"></i> EN VIVO AHORA</div>
+                <h1 class="hero-title">RADIO PULSO</h1>
+                <h2 class="hero-subtitle">TU LATIDO DIGITAL</h2>
+                <p class="hero-description">La emisora que define el ritmo de la noche. Synthwave, Retrowave y los mejores beats electrónicos las 24 horas.</p>
+                <div class="hero-meta">
+                    <span><i class="fas fa-clock"></i> Termina en: <span id="timer">01:45:20</span></span>
+                    <span><i class="fas fa-headphones"></i> <span id="listeners">1,240</span> Oyentes</span>
+                </div>
+            </div>
+
+            <div class="hero-player-card">
+                <div class="hero-player-status">
+                    <i class="fas fa-broadcast-tower"></i> <span id="playerStatus">LISTO PARA TRANSMITIR</span>
+                </div>
+                <div class="hero-player-art">
+                    <img src="https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?q=80&w=500" alt="Current Show">
+                </div>
+                <p class="hero-player-show" id="currentShowTitle">Cargando programa actual...</p>
+                
+                <div class="waveform" id="waveform">
+                    <div class="waveform-bar"></div><div class="waveform-bar"></div><div class="waveform-bar"></div>
+                    <div class="waveform-bar"></div><div class="waveform-bar"></div><div class="waveform-bar"></div>
+                    <div class="waveform-bar"></div><div class="waveform-bar"></div><div class="waveform-bar"></div>
+                    <div class="waveform-bar"></div>
+                </div>
+
+<div class="hero-player-controls">
+    <button class="hero-btn-play" id="playBtn" type="button" title="Reproducir"><i class="fas fa-play"></i></button>
+    <button class="hero-btn-pause" id="pauseBtn" type="button" title="Pausar" disabled><i class="fas fa-pause"></i></button>
+    
+<div class="volume-control-group">
+    <label for="volumeSlider" class="volume-label">
+        <i class="fas fa-volume-up" id="volIcon"></i>
+    </label>
+    <input type="range" 
+           id="volumeSlider" 
+           class="hero-volume-slider" 
+           min="0" 
+           max="100" 
+           value="70" 
+           aria-label="Control de volumen de la radio">
+</div>
+            </div>
+        </div>
+        </div>
+        <div class="glow-effect"></div>
+    </header>
+
+			<section class="stats-section">
+				<div class="container">
+                    <h2 class="section-title">ESTADÍSTICAS DE <span style="color:var(--neon-cyan)">AUDIENCIA</span></h2>
+                    <div class="stats-grid">
+					<div class="stat-card stat-cyan">
+						<div class="stat-icon"><i class="fa-solid fa-earth-americas"></i></div>
+						<div class="stat-number">150+</div>
+						<div class="stat-label">Países Alcanzados</div>
+					</div>
+
+					<div class="stat-card stat-pink">
+						<div class="stat-icon"><i class="fa-solid fa-tower-broadcast"></i></div>
+						<div class="stat-number">24/7</div>
+						<div class="stat-label">Streaming Ininterrumpido</div>
+					</div>
+
+					<div class="stat-card stat-gold">
+						<div class="stat-icon"><i class="fa-solid fa-compact-disc"></i></div>
+						<div class="stat-number">5k+</div>
+						<div class="stat-label">Tracks en Rotación</div>
+					</div>
+
+					<div class="stat-card stat-purple">
+						<div class="stat-icon"><i class="fa-solid fa-microphone-lines"></i></div>
+						<div class="stat-number">12</div>
+						<div class="stat-label">Locutores Pro</div>
+					</div>
+                    </div>
+				</div>
+			</section>
+
+    <section class="schedule-section" id="schedule">
+        <div class="container">
+            <h2 class="section-title">HORARIO DE <span style="color:var(--neon-pink)">PROGRAMACIÓN</span></h2>
+            <div class="day-selectors-stack">
+                <div class="day-selector-block">
+                    <p class="day-selector-label">Entre semana</p>
+                    <div class="day-selector day-selector--weekdays" role="group" aria-label="Días entre semana">
+                        <button type="button" class="day-btn day-btn--weekday active" data-day="Mon">Lunes</button>
+                        <button type="button" class="day-btn day-btn--weekday" data-day="Tue">Martes</button>
+                        <button type="button" class="day-btn day-btn--weekday" data-day="Wed">Miércoles</button>
+                        <button type="button" class="day-btn day-btn--weekday" data-day="Thu">Jueves</button>
+                        <button type="button" class="day-btn day-btn--weekday" data-day="Fri">Viernes</button>
+                    </div>
+                </div>
+                <div class="day-selector-block day-selector-block--weekend">
+                    <p class="day-selector-label day-selector-label--weekend">Fin de semana</p>
+                    <div class="day-selector day-selector--weekend" role="group" aria-label="Fin de semana">
+                        <button type="button" class="day-btn day-btn--weekend" data-day="Sat">Sábado</button>
+                        <button type="button" class="day-btn day-btn--weekend" data-day="Sun">Domingo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="schedule-grid" id="scheduleGrid">
+                </div>
+        </div>
+    </section>
+
+    <section class="advertise-section" id="advertise">
+        <div class="container">
+            <div class="advertise-card">
+                <h2>ANÚNCIATE CON NOSOTROS</h2>
+                <div class="advertise-packages">
+                    <div class="package">
+                        <h3><i class="fas fa-star"></i> Plan Básico</h3>
+                        <p>3 menciones diarias + banner web.</p>
+                      <!--  <span class="price">$50/mes</span> -->
+                    </div>
+                    <div class="package">
+                        <h3><i class="fas fa-crown"></i> Plan Premium</h3>
+                        <p>10 menciones + Entrevista semanal.</p>
+                        <!--<span class="price">$120/mes</span> -->
+                    </div>
+                </div>
+                <button class="btn btn-send">PEDIR INFORMACIÓN</button>
+            </div>
+        </div>
+    </section>
+
+     <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">PONTE EN <span class="highlight">CONTACTO</span></h2>
+
+            <div class="contact-wrapper">
+                <!-- Left Column - Contact Info -->
+                <div class="contact-info">
+                    <h3>¿Tienes dudas o sugerencias?</h3>
+                    <p>Escribenos y nuestro equipo te responderá lo antes posible. ¡Queremos escucharte!</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fa-regular fa-envelope"></i>
+                            <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1f767179705f6d7e7b76706f6a736c70317c7072">[email&#160;protected]</a></span>
+                        </div>
+                        <div class="contact-item">
+                           <i class="fa-solid fa-mobile-screen"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Av. Principal #123, Ciudad Digital</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column - Contact Form -->
+                <div class="contact-form-wrapper">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="contactName">NOMBRE</label>
+                            <input type="text" id="contactName" required placeholder="Tu nombre">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactEmail">CORREO ELECTRÓNICO</label>
+                            <input type="email" id="contactEmail" required placeholder="tu@correo.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactMessage">MENSAJE</label>
+                            <textarea id="contactMessage" required rows="5" placeholder="¿En qué podemos ayudarte?"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-send"><i class="fa-regular fa-paper-plane"></i> ENVIAR MENSAJE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>RADIO PULSO</h4>
+                    <p>Tu latido digital. Transmisión 24/7.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>ENLACES RÁPIDOS</h4>
+                    <ul>
+                        <li><a href="#home">Escuchar en Vivo</a></li>
+                        <li><a href="#schedule">Horario</a></li>
+                        <li><a href="#schedule">Programas</a></li>
+                        <li><a href="#advertise">Publicidad</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>SÍGUENOS</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-btn" title="Facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-btn" title="Instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-btn" title="X (Twitter)" aria-label="X (antes Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" class="social-btn" title="TikTok" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="social-btn" title="Whatsapp" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>CONTACTO</h4>
+                    <p><i class="fas fa-envelope"></i> Email: info@radiopulso.com<br><i class="fas fa-phone"></i> Teléfono: +1 (555) 123-4567</p>
+                </div>
+            </div>
+
+			<div class="footer-bottom">
+							<p>&copy; 2025 Radio Pulso. Todos los derechos reservados. Tu latido digital.</p>
+						</div>
+					</div>
+				</footer>
+
+  <audio id="mainAudio" crossorigin="anonymous">
+    <source src="https://stream.nightride.fm/nightride.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

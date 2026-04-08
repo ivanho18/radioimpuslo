@@ -1,0 +1,5 @@
+# Sustituye el dominio si usas otro (www vs sin www).
+User-agent: *
+Allow: /
+
+Sitemap: https://radiopulso.com/sitemap.xml
